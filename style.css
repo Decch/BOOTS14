@@ -1,0 +1,61 @@
+#mainMenu .nav-link {
+    color: black;
+}
+
+#mainMenu .nav-link:hover {
+background: blueviolet; 
+color: aqua;
+border-radius: 6px;
+}
+
+#mainMenu .nav-link.active {
+    background: blueviolet; 
+    color: aqua;
+    border-radius: 6px;
+}
+
+.d-block {
+    height: 800px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+background-color: black;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#work {
+    padding-top: 80px;
+}
+
+#contact {
+    background: #f0f2f4;
+    
+}
+
+#footer ul a{
+    color: black;
+    text-decoration: none;
+}
+
+    #footer ul a:hover{
+        color: blueviolet;;
+        
+    }
+
+    @media only screen and (min-width:200px) and (max-width:767px) {
+        #slider {
+            padding-top: 70px;
+            
+    }
+    #about {
+        padding: 25px;
+    }
+
+    #about .col-md-6.align-self-center {
+        padding-bottom: 25px;
+    }
+}
